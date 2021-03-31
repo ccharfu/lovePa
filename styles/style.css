@@ -1,7 +1,6 @@
 :root {
     --primary  : hsla(117, 21%, 56%, 0.48);
     --secondary: hsla(204, 85%, 61%, 0.48);
-    ;
 }
 
 body {
@@ -19,11 +18,21 @@ body {
 }
 
 h1 {
-    font-size: 5.4rem;
+    font-size: 6em;
     margin   : 20px;
 }
 
 p {
-    font-size: 2rem;
+    font-size: 2.5em;
     margin   : 20px;
+}
+
+@media screen and (max-width: 400px) {
+    p {
+        font-size: 18.5px;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
 }
