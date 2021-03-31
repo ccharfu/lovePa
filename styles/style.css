@@ -1,0 +1,27 @@
+:root {
+    --primary  : hsla(320, 98%, 63%, 0.65);
+    --secondary: hsla(204, 85%, 61%, 0.65);
+    ;
+}
+
+body {
+    /* font-family: monospace; */
+    height       : 100vh;
+    width        : 100vw;
+    margin       : 0;
+    font-family  : 'playball';
+    color        : #ffffff;
+    display      : grid;
+    place-items  : center;
+    place-content: center;
+
+    background: linear-gradient(135deg, var(--primary), var(--secondary)), url(/img/img1.jpg) no-repeat center center / cover;
+}
+
+h1 {
+    font-size: 5.4rem;
+}
+
+p {
+    font-size: 2rem;
+}
