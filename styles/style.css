@@ -1,6 +1,6 @@
 :root {
-    --primary  : hsla(320, 98%, 63%, 0.65);
-    --secondary: hsla(204, 85%, 61%, 0.65);
+    --primary  : hsla(117, 21%, 56%, 0.48);
+    --secondary: hsla(204, 85%, 61%, 0.48);
     ;
 }
 
@@ -9,7 +9,7 @@ body {
     height       : 100vh;
     width        : 100vw;
     margin       : 0;
-    font-family  : 'playball';
+    font-family  : monospace;
     color        : #ffffff;
     display      : grid;
     place-items  : center;
@@ -20,8 +20,10 @@ body {
 
 h1 {
     font-size: 5.4rem;
+    margin   : 20px;
 }
 
 p {
     font-size: 2rem;
+    margin   : 20px;
 }
